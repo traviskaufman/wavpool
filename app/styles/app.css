@@ -517,10 +517,6 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mr-auto {
   margin-right: auto;
 }
@@ -539,10 +535,6 @@ html {
 
 .items-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .gap-2 {
@@ -617,10 +609,6 @@ html {
 
 .tracking-widest {
   letter-spacing: 0.025rem;
-}
-
-.text-current {
-  color: currentColor;
 }
 
 .text-white {
