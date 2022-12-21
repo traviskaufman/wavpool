@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "npm run build:css && remix build",
+    "build:css": "tailwindcss -m -i ./styles/app.css -o app/styles/app.css",
+    "dev:remix": "remix watch",
+    "dev:arc": "cross-env NODE_ENV=development arc sandbox",
+    "dev:css": "cross-env NODE_ENV=development tailwindcss -w -i ./styles/app.css -o app/styles/app.css",
+    "dev": "remix build && run-p \"dev:*\"",
+    "start": "cross-env NODE_ENV=production arc sandbox",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@remix-run/architect": "^1.9.0",
+    "@remix-run/node": "^1.9.0",
+    "@remix-run/react": "^1.9.0",
+    "cross-env": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@architect/architect": "^10.7.2",
+    "@remix-run/dev": "^1.9.0",
+    "@remix-run/eslint-config": "^1.9.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.27.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
