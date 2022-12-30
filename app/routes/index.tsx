@@ -1,5 +1,5 @@
-import PageShell from "~/components/PageShell";
-import { H1 } from "~/components/Typography";
+import PageShell from "~/components/common/PageShell";
+import { H1 } from "~/components/common/Typography";
 
 export default function Index() {
   return (
