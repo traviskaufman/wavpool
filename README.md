@@ -1,3 +1,26 @@
+# Welcome!
+
+WavPool (pronounced "Wave Pool") as an open-source audio hosting alternative for musicians. It's like WordPress meets
+Soundcloud.
+
+# Setup
+
+You'll need a recent version of [NodeJS](https://nodejs.org/en/) to begin. Also I've only tested development on macs.
+
+## DEV DB
+
+1. Ensure you've `npm install`ed
+1. `cp .env.template .env`
+1. Change `DATABASE_URL` to something, e.g. `file:./.devdb/database.sqlite`
+1. Run `npm run devdb`
+
+## Etc.
+
+The Remix README below describes development. This is meant to be deployed on AWS because you need backend infra for
+processing track uploads, which AWS provides.
+
+---
+
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)

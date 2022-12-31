@@ -1,3 +1,5 @@
+import type { Track } from "@prisma/client";
+import PlayPauseBtn from "./PlayPauseBtn";
 import useTrackViewModel from "./useTrackViewModel";
 
 export default function PlayerHero(track: Track) {

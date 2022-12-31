@@ -8,3 +8,5 @@ preferences.arc
 sam.json
 sam.yaml
 .env
+/.devdb/*
+!/.devdb/.keep

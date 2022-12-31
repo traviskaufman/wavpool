@@ -1,3 +1,4 @@
+import type { Track } from "@prisma/client";
 import { atom, useAtom } from "jotai";
 import { useCallback } from "react";
 
